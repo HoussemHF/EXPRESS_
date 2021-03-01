@@ -30,8 +30,8 @@ app.get("/", (req, res) => {
     res.render("index", { title: "Home", isOpen : req.requestTime });
 });
 
-app.get("/ourServices", (req, res) => {
-    res.render("ourServices", { title: "Our Services", isOpen : req.requestTime });
+app.get("/Services", (req, res) => {
+    res.render("Services", { title: "Our Services", isOpen : req.requestTime });
 });
 
 app.get("/contactUs", (req, res) => {
